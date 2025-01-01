@@ -1,0 +1,84 @@
+/* General Reset */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Header Styling */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #222;
+}
+
+/* Main Content Styling */
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Dark Mode Styling */
+body.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
+
+body.dark-mode .btn {
+    background-color: #444;
+    color: #ddd;
+}
+
+body.dark-mode .btn:hover {
+    background-color: #666;
+}
+/* Dark Mode Styling */
+body.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
+
+body.dark-mode h1 {
+    color: white;
+}
+
+body.dark-mode .btn {
+    background-color: #0056b3;
+    color: #ddd;
+}
+
+body.dark-mode .btn:hover {
+    background-color: #0057b3d3;
+}
